@@ -10,11 +10,11 @@ function breakOut(array, changeValue, stopValue) {
 
 function keepGoing(array, changeValue, skipValue) {
   for (var i = 0; i < array.length; i++) {
-    if (array[i] == stopValue) {
-      continue;
-    }
-  array[i] = changeValue;
-}
-return array;
+      if (array[i] == stopValue) {
+        continue;
+        }
+        array[i] = changeValue;
+      }
+      return array;
   }
-}
+
